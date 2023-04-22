@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-"""Flask Application to display 'Hello HBNB' """
+"""Flask Application to display 'Hello HBNB' """i
+
 from flask import Flask
+
 app = Flask(__name__)
 
 @app.route("/", strict_slashes=False)
